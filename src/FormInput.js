@@ -10,7 +10,7 @@ function FormInput({handleChange, formInputData, handleSubmit}){
           <div className="row">
           <label for="emailAddress">Email</label>
             <input type="email" onChange={handleChange} value={formInputData.emailAddress} name="emailAddress" className="form-control" placeholder="Email Address" />
-          </div>
+            git push -u origin main   </div>
           <div className="row">
           <label for="password">Password</label>
             <input type="text" onChange={handleChange} value={formInputData.salary} name="password" className="form-control" placeholder="Password" />
