@@ -12,7 +12,7 @@ function FormInput({handleChange, formInputData, handleSubmit}){
             <input type="email" onChange={handleChange} value={formInputData.emailAddress} name="emailAddress" className="form-control" placeholder="Email Address" />
           </div>
           <div className="row">
-          <label for="salary">Password</label>
+          <label for="password">Password</label>
             <input type="text" onChange={handleChange} value={formInputData.salary} name="password" className="form-control" placeholder="Password" />
           </div>
           <div className="row">
