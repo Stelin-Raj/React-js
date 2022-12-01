@@ -1,22 +1,56 @@
 body{
   background: #FF8008;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #FFC837, #FF8008);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .form{
 padding: 50px;
+margin: 30px auto;
   margin-top: 30px;
+  width: 70%;
+}
+
+table{
   width: 100%;
 }
 
-.btn{
-  padding: 10px;
-  margin-top: 20px;
-  width: 20%;
-}
+
 
 tr td{
   color:rgb(47, 47, 47);
   font-weight: bold;
+  padding: 0px;
+  margin: 0px;  
 }
+
+button{
+  width:100%;
+  margin: 5px;
+  padding:0px
+}
+
+button.btn.btn-danger, button.btn.btn-info{
+  width: auto;
+}
+
+input.btn.btn-primary, input.btn.btn-success{
+margin-top: 15px;
+}
+
+label{
+  font-weight: 600;
+}
+
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+text-align: center;
+}
+
+div.form{
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+  
